@@ -1,0 +1,44 @@
+.headerContainer {
+  width: 100vw;
+  height: 350px;
+  background: #24e62e;
+  margin-top: -22px;
+  position: relative;
+  border-width: solid;
+  border-color: black;
+}
+
+.headerContainer h1 {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, -50%);
+  top: 42%;
+  font-size: 42px;
+  color: rgb(216, 16, 16);
+  text-align: center;
+}
+
+.backBtnContainer {
+  padding: 20px 0px 0px 20px;
+  color: rgb(202, 12, 12);
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  transition: all ease 200ms;
+}
+
+.backBtnContainer:hover {
+  transform: scale(1.2);
+}
+
+.btnContainer {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, -50%);
+  top: 75%;
+  font-size: 42px;
+  color: rgb(190, 12, 12);
+}

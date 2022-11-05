@@ -1,0 +1,23 @@
+.characterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 45px 0px;
+}
+
+.notFound {
+  display: flex;
+  justify-content: center;
+  margin: 19px 0px;
+  color: rgb(150, 0, 0);
+}
+
+.notFound h1 {
+  margin-left: -25px;
+}
+
+.listElement {
+  font-weight: normal;
+  font-size: 16px;
+  color: grey
+}
