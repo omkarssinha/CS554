@@ -1,0 +1,28 @@
+{
+  "name": "cs554",
+  "version": "1.0.0",
+  "description": "This is Lab 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Omkar Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "express-session": "^1.17.2",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "location": "0.0.1",
+    "mongodb": "^4.1.1",
+    "querystring": "^0.2.1",
+    "url": "^0.11.0",
+    "uuid": "^8.3.2",
+    "window": "^4.2.7"
+  }
+}
