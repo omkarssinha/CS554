@@ -1,0 +1,43 @@
+    <main>
+        <div>
+            <h1 class="ShowName">{{{title}}}</h1>
+            {{#if error}}
+            <div class="errorName"> 404 Not Found</div>
+            <p class="error">No show could be found for that ID</p>
+            {{else}}
+            {{#if image.medium}}
+            <img src={{{image.medium}}} alt="Show's illustration"/>
+            {{/if}}
+            <dl>
+                {{#if language}}
+                <dt>Language</dt>
+                <dd>{{{language}}}</dd>
+                {{/if}}
+                {{#if genres}}
+                <dt>Genres</dt>
+                <dd>
+                    <ul>
+                        {{#each genres}}
+                            <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </dd>
+                {{/if}}
+                {{#if rating.average}}
+                <dt>Average rating</dt>
+                <dd>{{{rating.average}}}</dd>
+                
+                {{/if}}
+                {{#if network.name}}
+                <dt>Network</dt>
+                <dd>{{{network.name}}}</dd>
+                
+                {{/if}}
+                {{#if summary}}
+                <dt>Summary</dt>
+                <dd>{{summary}}</dd>
+                {{/if}}
+            </dl>
+            {{/if}}
+        </div>
+    </main>
