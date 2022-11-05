@@ -1,0 +1,15 @@
+<h1>{{{title}}}</h1>
+    <main>
+        {{#if error}}
+        <div class="errorName"> 400 Bad Request</div>
+        <p class="error">{{e}}</p>
+        {{else}}
+        {{#if terms}}
+        <ol>
+            {{#each terms}}
+                <li class="list">{{Name}}</li>
+            {{/each}}
+        </ol>
+        {{/if}}
+        {{/if}}
+    </main>
